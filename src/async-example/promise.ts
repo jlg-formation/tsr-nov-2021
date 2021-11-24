@@ -1,4 +1,4 @@
-import fs = require("fs");
+import fs from "fs";
 
 const readdir = (dirname) => {
   return new Promise((resolve, reject) => {
