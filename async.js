@@ -6,7 +6,7 @@ fs.readdir(".", (err, files) => {
     return;
   }
   console.log("files: ", files);
-  fs.readFile(files[0], { encoding: "utf-8" }, (err, content) => {
+  fs.readFile(files[1], { encoding: "utf-8" }, (err, content) => {
     if (err) {
       console.log("err: ", err);
       return;
