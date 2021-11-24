@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/jlg-formation/tsr-nov-2021/issues"
   },
-  "homepage": "https://github.com/jlg-formation/tsr-nov-2021#readme"
+  "homepage": "https://github.com/jlg-formation/tsr-nov-2021#readme",
+  "dependencies": {
+    "typescript": "^4.5.2"
+  }
 }
