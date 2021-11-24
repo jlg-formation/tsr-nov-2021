@@ -1,4 +1,4 @@
-const fs = require("fs");
+import fs = require("fs");
 
 const readdir = (dirname) => {
   return new Promise((resolve, reject) => {

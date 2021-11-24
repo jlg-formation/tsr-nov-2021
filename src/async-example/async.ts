@@ -1,4 +1,4 @@
-const fs = require("fs");
+import fs = require("fs");
 
 fs.readdir(".", (err, files) => {
   if (err) {
