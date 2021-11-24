@@ -4,7 +4,10 @@
   "description": "",
   "main": "async.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon src/index.ts",
+    "build": "npx tsc",
+    "start:prod": "node dist/index.js"
   },
   "repository": {
     "type": "git",

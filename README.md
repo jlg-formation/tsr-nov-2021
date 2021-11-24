@@ -12,8 +12,19 @@ npm install
 
 ## Usage
 
+### development
+
 ```
-Je ne sais pas encore...
+cd tsr-nov-2021
+npm start
+```
+
+### production
+
+```
+cd tsr-nov-2021
+npm run build
+npm run start:prod
 ```
 
 ## Author
