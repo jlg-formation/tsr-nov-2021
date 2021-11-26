@@ -1,6 +1,16 @@
 import express from "express";
 import { Server } from "http";
+import { MonDecorateurDeClasse } from "./decorator";
 
+// commentaire monoligne
+
+/* asdfasdfasdf
+asdfasdfasdf
+asdfasdfasdf
+Commentaire multiligne
+*/
+
+@MonDecorateurDeClasse
 export class WebServer {
   server: Server;
   options: { port: number };
