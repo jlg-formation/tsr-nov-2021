@@ -1,7 +1,8 @@
 // [0,4,7,12] -> [{nbr: 0}, {nbr: 4}, {nbr: 7}, {nbr: 12}]
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 function transform(table: number[]) {
-  let result = [];
+  const result: { nbr: number }[] = [];
   for (const value of table) {
     const object = {
       nbr: value,
@@ -33,6 +34,7 @@ console.log("myProduit: ", myProduit);
 
 // filtrer les elements > 5
 // [4,7,12,2] => [7,12]
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const filterAbove5 = (array: number[]) => {
   const result = [];
   for (const item of array) {

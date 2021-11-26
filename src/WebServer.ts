@@ -24,7 +24,7 @@ export class WebServer {
     app.get("/", (req, res) => {
       res.send("Hello World!");
     });
-    return new Promise<void>((resolve, reject) => {
+    return new Promise<void>((resolve) => {
       this.server = app.listen(port, () => {
         console.log(`Example app listening at http://localhost:${port}`);
         resolve();
