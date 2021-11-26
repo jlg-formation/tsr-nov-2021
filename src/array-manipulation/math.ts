@@ -47,3 +47,9 @@ const newFilterAbove5 = (array: number[]) => array.filter((item) => item > 5);
 
 const filteredArray = newFilterAbove5([4, 7, 12, 2]);
 console.log("filteredArray: ", filteredArray);
+
+const timeout = setTimeout(() => {
+  console.log("coucou");
+}, 2000);
+
+clearTimeout(timeout);

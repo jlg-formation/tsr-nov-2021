@@ -4,6 +4,7 @@ import axios from "axios";
 
 describe("Server", () => {
   it("should start and stop", async function () {
+    this.timeout(0);
     const port = +process.env.ETL_PORT || 5000;
     const server = new WebServer({ port: port });
     await server.start();
