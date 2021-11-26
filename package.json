@@ -8,7 +8,8 @@
     "test:watch": "mocha -w",
     "start": "npx nodemon src/index.ts",
     "build": "npx tsc",
-    "start:prod": "node dist/index.js"
+    "start:prod": "node dist/index.js",
+    "math1": "npx ts-node src/array-manipulation/math.ts"
   },
   "repository": {
     "type": "git",
